@@ -1,0 +1,30 @@
+---
+title: "GWAS Catalogue"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GWAS Systemic Lupus Erythematosus
+
+This is an R Markdown document to obtain Manhattan Plot associating Systemic Lupus Erythematosus with variations in genome reported in the GWAS Catalogue.
+
+
+**Falta cambiar datos
+
+```{r }
+library(gapminder)
+data(gapminder)
+d <- gapminder[which(gapminder$year == 2007), ]
+knitr::kable(summary(d),
+  caption = "Summary of the gapminder data in 2007"
+)
+```
+
+
+
+
+
+
